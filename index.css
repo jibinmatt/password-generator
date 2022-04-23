@@ -1,0 +1,204 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    align-items: center;
+    
+    background: #1F2937;;
+}
+
+h1 {
+    position: relative;
+    width: 354px;
+    height: 80px;
+    left: 50px;
+    top: 118px;
+
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.025em;
+
+    color: #FFFFFF;
+}
+
+span {
+    position: relative;
+    width: 80px;
+    height: 80px;
+
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+
+    letter-spacing: -0.025em;
+}
+
+#accent {
+    color: #10B981;
+}
+
+#accent2 {
+    top: 50px;
+    left: 130px;
+
+    color: #10B981;
+}
+
+p {
+    position: relative;
+    width: 372px;
+    height: 28px;
+    left: 86px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+
+    color: #D5D4D8;
+    }
+
+button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 17px 9px 15px;
+
+    position: relative;
+    width: 223px;
+    height: 42px;
+    left: 100px;
+
+    background: #10B981;
+    color: white;
+    font-weight: bold;
+
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+h3 {
+    position: relative;
+    width: 203px;
+    height: 63px;
+    left: 70px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 24px;
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+input {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 17px 9px 15px;
+    
+    position: relative;
+    width: 63px;
+    height: 15px;
+    left: 253px;
+    bottom: 65px;
+    text-align: center;
+    
+    background: #10B981;
+    
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+
+div {    
+    margin: auto;
+}
+
+#password-one-el {
+    background-color: skyblue;
+    position: relative;
+    width: 211px;
+    height: 30px;
+    bottom: 50px;
+    padding-top: 9px;
+
+    background: #273549;
+    border-radius: 6px;
+    color: #10B981;
+    
+}
+
+#password-two-el {
+    background-color: skyblue;
+    position: relative;
+    width: 211px;
+    height: 30px;
+    bottom: 40px;
+    padding-top: 9px;
+
+    background: #273549;
+    border-radius: 6px;
+    color: #10B981;
+}
+
+#password-three-el {
+    background-color: skyblue;
+    position: relative;
+    width: 211px;
+    height: 30px;
+    bottom: 30px;
+    padding-top: 9px;
+
+    background: #273549;
+    border-radius: 6px;
+    color: #10B981;
+
+}
+
+#password-four-el {
+    background-color: skyblue;
+    position: relative;
+    width: 211px;
+    height: 30px;
+    bottom: 20px;
+    padding-top: 9px;
+
+    background: #273549;
+    border-radius: 6px;
+    color: #10B981;
+}
+hr {
+    position: relative;
+    width: 446px;
+    height: 0px;
+    bottom: 50px;
+
+    border: 1px solid #2F3E53;
+}
+
+.results {
+    display: flexbox;
+    text-align: center;
+    justify-content: center;
+}
